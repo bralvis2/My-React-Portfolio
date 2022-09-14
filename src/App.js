@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./components/Header";
+import PortfolioContainer from "./components/PorfolioContainer.js";
 import './styles/App.css'
 
 function App() {
-  return <Header />;
+  return <PortfolioContainer />;
 }
 
 export default App;

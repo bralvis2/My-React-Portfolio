@@ -19,6 +19,9 @@ ul {
 }
 
 .nav-link {
-    text-decoration: none;
     color:var(--darkGreen) !important;
+}
+
+a:hover {
+    color: var(--sageGreen) !important;
 }

@@ -6,7 +6,9 @@ import '../styles/Header.css';
 function Header() {
   return (
     <header>
-      <img src={logo} alt='logo' width={'350px'} />
+      <a href='#'>
+        <img src={logo} alt='logo' width={'350px'} />
+      </a>
       <div className='navbar'>
         <Nav />
       </div>
