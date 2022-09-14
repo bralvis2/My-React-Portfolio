@@ -1,4 +1,24 @@
 header {
+    display: flex;
+    flex-direction: row;
     color: var(--darkGreen);
     background-color: var(--lightNeutral);
+}
+
+.navbar {
+    width: 90%;
+}
+
+.nav {
+    margin-left: 45%;
+}
+
+ul {
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:var(--darkGreen) !important;
 }
