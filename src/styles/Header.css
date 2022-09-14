@@ -1,0 +1,29 @@
+:root {
+    --darkGreen: #4A4633;
+    --sageGreen: #8C8C77;
+    --lightNeutral: #F2ECE4;
+    --darkNeutral: #D9CDBF;
+    --mediumNeutral: #A2845C;
+    --burntNeutral: #8C5332;
+}
+
+header {
+    display: flex;
+    background-color: var(--lightNeutral);
+}
+
+.navContainer {
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: var(--darkGreen) !important;
+    font-size: 1.5em !important;
+}
+
+a:hover {
+    color: var(--sageGreen) !important;
+}
