@@ -1,0 +1,17 @@
+:root {
+    --darkGreen: #4A4633;
+    --sageGreen: #8C8C77;
+    --lightNeutral: #F2ECE4;
+    --darkNeutral: #D9CDBF;
+    --mediumNeutral: #A2845C;
+    --burntNeutral: #8C5332;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}

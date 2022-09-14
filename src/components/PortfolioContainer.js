@@ -4,9 +4,10 @@ import Resume from './pages/Resume';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Footer from './Footer'
 import logo from '../images/logo.png'
 // style sheet
-import '../styles/Header.css'
+import '../styles/PortfolioContainer.css'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -39,7 +40,12 @@ export default function PortfolioContainer() {
         </div>
         {/* Here we are calling the renderPage method which will return a component  */}
       </header>
-      {renderPage()}
+      <main>
+        {renderPage()}
+      </main>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

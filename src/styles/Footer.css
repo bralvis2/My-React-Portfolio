@@ -1,0 +1,16 @@
+footer {
+    background-color: var(--sageGreen);
+    color: var(--darkGreen);
+    text-align: center;
+    height: 50px;
+    position: fixed;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+@media screen and (max-height: 400px) {
+    footer {
+        position: relative;
+    }
+}
