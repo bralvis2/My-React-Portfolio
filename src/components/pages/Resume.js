@@ -18,7 +18,7 @@ export default function Resume() {
       </div>
       <div className='skills'>
         <h3>Technical Skills</h3>
-        <ul>
+        <ul className='skillsList'>
           <li>HTML</li>
           <li>CSS</li>
           <li>Javascript</li>

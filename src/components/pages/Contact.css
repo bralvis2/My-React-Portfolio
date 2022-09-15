@@ -28,6 +28,19 @@
     width: 40%;
 }
 
+.submitBtn {
+    background-color: var(--burntNeutral);
+    color: var(--lightNeutral);
+    border-radius: 8px;
+    width: 100px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.submitBtn:hover {
+    background-color: var(--mediumNeutral);
+}
+
 @media screen and (max-width: 650px) {
     .contactContainer {
         display: flex;

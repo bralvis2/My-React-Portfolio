@@ -33,7 +33,7 @@ export default function Contact() {
             <label for="exampleFormControlTextarea1">Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <button type="submit" class="btn">Submit</button>
+          <button type="submit" className="submitBtn">Submit</button>
         </form>
       </div>
     </div>
