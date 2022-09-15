@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 600px;
+    height: 600px !important;
     margin: auto;
     padding: 30px;
     
@@ -25,7 +25,7 @@
     font-size: large;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .about {
         display: flex;
         flex-direction: column;
