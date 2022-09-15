@@ -11,7 +11,7 @@ export default function Resume() {
         <p className='downloadResume'>
           Download my resume.
         </p>
-        <a href='https://drive.google.com/file/d/1hxaAQW79EvwmUp8ht59Y3xITBZSx3tVx/view?usp=sharing' 
+        <a href='https://drive.google.com/file/d/13m91_xslYpR7VRfKteOBtDCT45CKyu1s/view?usp=sharing' 
         target="_blank">
           <button className='resumeBtn'>Download</button>
         </a>
