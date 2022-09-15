@@ -1,0 +1,51 @@
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--darkNeutral);
+    height: 700px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contactInfo {
+    width: 40%;
+}
+
+.contactList {
+    list-style: none;
+    font-size: large;
+}
+
+.github {
+    text-decoration: none;
+}
+
+.contactMe {
+    font-size: large;
+}
+
+.contactForm {
+    width: 40%;
+}
+
+@media screen and (max-width: 650px) {
+    .contactContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: flex-start;
+    }
+
+    .contactInfo {
+        margin: auto;
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .contactForm {
+        margin: auto;
+        width: 90%;
+        margin-top: 50px;
+    }
+}
