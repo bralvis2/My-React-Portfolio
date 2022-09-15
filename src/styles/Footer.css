@@ -3,18 +3,18 @@ footer {
     color: var(--darkGreen);
     text-align: center;
     height: 70px;
-    position: fixed;
-    left:0;
+    position: relative;
+    /* left:0;
     bottom:0;
-    right:0;
+    right:0; */
 }
 
 .icons {
     margin-top: 10px;
 }
 
-@media screen and (max-height: 400px) {
+/* @media screen and (max-height: 400px) {
     footer {
         position: relative;
     }
-}
+} */

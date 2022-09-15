@@ -1,0 +1,59 @@
+.portfolioContainer {
+    text-align: center;
+    background-color: var(--darkNeutral);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 600px;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 90%;
+    margin: 4%;
+}
+
+.card-body {
+    background-color: var(--darkNeutral);
+}
+
+.appBtn {
+    background-color: var(--darkGreen);
+    color: var(--lightNeutral) !important;
+    border-radius: 8px;
+    font-size: 1em;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.appBtn:hover {
+    background-color: var(--sageGreen);
+    color: var(--lightNeutral) !important;
+}
+
+@media screen and (max-width: 900px) {
+    .portfolioContainer {
+        height: 100%;
+    }
+    .work {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .work {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+}

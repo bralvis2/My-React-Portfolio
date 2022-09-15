@@ -1,24 +1,51 @@
 import React from 'react';
+import olympiad from './images/olympiad.png'
+import travel from './images/travel.png'
+import goat from './images/goat.png'
+
+// style sheet
+import './Portfolio.css'
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <div className='portfolioContainer'>
+      <h1>My Portfolio</h1>
+      <div className='work'>
+        
+        <div>
+          <div class="card">
+            <img class="card-img-top" src={olympiad} alt="Olympiad" />
+            <div class="card-body">
+              <h5 class="card-title">Olympiad</h5>
+              <p class="card-text">Trivia game!</p>
+              <a href="https://olympiad-game.herokuapp.com" target="_blank" class="appBtn">Check it Out</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card">
+            <img class="card-img-top" src={goat} alt="Olympiad" />
+            <div class="card-body">
+              <h5 class="card-title">Goat Rodeo</h5>
+              <p class="card-text">Goat themed Dodgeball game!</p>
+              <a href="https://courtsandrevival.herokuapp.com/" target="_blank" class="appBtn">Check it Out</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card">
+            <img class="card-img-top" src={travel} alt="Olympiad" />
+            <div class="card-body">
+              <h5 class="card-title">Trip Planner</h5>
+              <p class="card-text">The app for a road trip!</p>
+              <a href="https://andrew87e.github.io/Travel-Planner/" target="_blank" class="appBtn">Check it Out</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   );
 }

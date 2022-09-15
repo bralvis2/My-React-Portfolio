@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     background-color: var(--darkNeutral);
-    height: 700px;
+    height: 550px;
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
