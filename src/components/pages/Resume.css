@@ -1,0 +1,36 @@
+.resumeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--darkNeutral);
+    height: 700px;
+    padding: 20px;
+}
+.downloadResume{
+    font-size: 1.3em;
+}
+.resumeBtn {
+    background-color: var(--darkGreen);
+    color: var(--lightNeutral);
+    border-radius: 8px;
+    width: 150px;
+    font-size: 0.75em;
+}
+
+.resumeBtn:hover {
+    background-color: var(--sageGreen);
+}
+
+@media screen and (max-width: 650px) {
+    .resumeContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: flex-start;
+    }
+
+    .resumeInfo {
+        margin-bottom: 50px;
+    }
+}
