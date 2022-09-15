@@ -17,7 +17,7 @@ This is my professional portfolio to display my skills, past work, and contact i
 
 ## How To Use
 
-- [Deployed Portfolio](https://bralvis2.github.io/my-react-portfolio)
+- [Deployed Portfolio](https://bralvis2.github.io/My-React-Portfolio)
 <br>
 To access my portfolio, you can click on the link above and naviate the site using the navigation bar. 
 
