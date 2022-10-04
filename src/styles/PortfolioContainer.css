@@ -27,3 +27,14 @@ a {
 a:hover {
     color: var(--sageGreen) !important;
 }
+
+@media screen and (max-width: 600px) {
+    header {
+        display: block;
+    }
+
+    .nav-item {
+        width: 50%;
+        text-align: center;
+    }
+}
