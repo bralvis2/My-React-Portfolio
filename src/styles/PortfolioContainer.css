@@ -31,6 +31,7 @@ a:hover {
 @media screen and (max-width: 600px) {
     header {
         display: block;
+        text-align: center;
     }
 
     .nav-item {

@@ -3,7 +3,7 @@ footer {
     color: var(--darkGreen);
     text-align: center;
     height: 70px;
-    position: relative;
+    display: relative;
     /* left:0;
     bottom:0;
     right:0; */
@@ -13,8 +13,8 @@ footer {
     margin-top: 10px;
 }
 
-/* @media screen and (max-height: 400px) {
+@media screen and (max-height: 700px) {
     footer {
-        position: relative;
+        display: flex;
     }
-} */
+}
