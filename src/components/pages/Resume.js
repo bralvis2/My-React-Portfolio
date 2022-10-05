@@ -24,7 +24,7 @@ export default function Resume() {
           <li>HTML</li>
           <li>CSS</li>
           <li>Javascript</li>
-          <li>MySQL</li>
+          <li>SQL</li>
           <li>Node.js</li>
           <li>MongoDB</li>
           <li>React</li>

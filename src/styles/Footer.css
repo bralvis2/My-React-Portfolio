@@ -16,5 +16,6 @@ footer {
 @media screen and (max-height: 700px) {
     footer {
         display: flex;
+        justify-content: center;
     }
 }
