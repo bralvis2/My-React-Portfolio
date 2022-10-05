@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from './images/resume.png'
 
 // style sheet
 import './Resume.css'
@@ -11,8 +12,9 @@ export default function Resume() {
         <p className='downloadResume'>
           Download my resume.
         </p>
-        <a href='https://drive.google.com/file/d/13m91_xslYpR7VRfKteOBtDCT45CKyu1s/view?usp=sharing' 
-        target="_blank">
+        <img src={resume} width={'200px'} className='resume'></img>
+        <a href='https://drive.google.com/file/d/1njn85qmwoc71WkjNbpndfduidUisVFUB/view?usp=sharing' 
+        target="_blank" className='resume-link'>
           <button className='resumeBtn'>Download</button>
         </a>
       </div>

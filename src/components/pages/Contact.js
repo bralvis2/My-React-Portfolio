@@ -10,16 +10,16 @@ export default function Contact() {
         <h1>Contact Me</h1>
         <ul className='contactList'>
           <li>📧: bralvis2@gmail.com </li>
-          <li>📱: (123)456-7890 </li>
+          {/* <li>📱: (123)456-7890 </li> */}
           <li>
             <a href='https://github.com/bralvis2' target="_blank" className='github'> 👩🏽‍💻: Github</a>
           </li>
         </ul>
         <p className='contactMe'>
-          If you are intested in collaborating or if you have any questions, please fill out this form. 
+          If you are intested in collaborating or if you have any questions, please email me. 
         </p>
       </div>
-      <div className='contactForm'>
+      {/* <div className='contactForm'>
         <form>
           <div class="form-group">
             <label for="formGroupExampleInput">Name</label>
@@ -35,7 +35,7 @@ export default function Contact() {
           </div>
           <button type="submit" className="submitBtn">Submit</button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 }

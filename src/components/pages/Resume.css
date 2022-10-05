@@ -10,6 +10,14 @@
 .downloadResume{
     font-size: 1.3em;
 }
+.resumeInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-link {
+    margin-left: 20px;
+}
 .resumeBtn {
     background-color: var(--darkGreen);
     color: var(--lightNeutral);
@@ -32,6 +40,11 @@
 
     .resumeInfo {
         margin-bottom: 50px;
+        margin: auto;
+    }
+
+    .resume-link {
+        margin: auto;
     }
 
     .skillsList {
